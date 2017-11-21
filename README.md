@@ -1,9 +1,9 @@
-##Interview d'un webdev
+## Interview d'un webdev
 
 Vous trouverez ici mon interview d'un webdev dans le cadre d'un exercice
 assigner par Becode, endroit ou je pratique la formation de type formative.
 
-#Liste des questions de l'interview :
+# Liste des questions de l'interview :
 
 ## Présentation
 - Peux-tu te présenter brièvement ?
