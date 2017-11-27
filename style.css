@@ -33,6 +33,10 @@ a { color: #fe921f; text-decoration: underline; }
   text-align:center;
   width: 100%;
 }
+.active {
+  background-color: #03051c;
+  padding: 5px;
+}
 nav li {
   display: inline;
 }
@@ -42,7 +46,7 @@ nav a {
   text-decoration: none;
     border-bottom: solid 1px black;
 }
-nav a:visited { text-decoration: none; color:pink; }
+nav a:visited { text-decoration: none;}
 nav a:hover { text-decoration: none; color:blue; }
 nav a:focus { text-decoration: none; color:yellow; }
 nav a:hover, nav a:active {
