@@ -54,6 +54,27 @@ nav a:hover, nav a:active {
   border-color: pink;
   color: #ffffff;
 }
+article button {
+  float: right;
+  opacity: 0.5;
+  padding: 0;
+  border: none;
+  background: none;
+}
+article button img {
+  width: 32px;
+  height: auto;
+}
+article button img:hover {
+animation: gotop 2s forwards;
+}
+@keyframes gotop {
+  0%{transform: translateY(0);}
+  25%{transform: translateY(-9px);}
+  50%{transform: translateY(0);}
+  75%{transform: translateY(-9px);}
+  100%{transform: translateY(0);}
+}
 @media screen and (max-width:480px) {
   .container {
     display: grid;
@@ -61,4 +82,8 @@ nav a:hover, nav a:active {
     width: 100%;
     margin: 0 auto;
   }
+  nav li{
+  display: flex;
+  flex-direction: column;
+}
 }
