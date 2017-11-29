@@ -1,0 +1,91 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+  body {
+  background-image: url(images/background.jpg);
+}
+/* grid */
+.container {
+  display: grid;
+  grid-template-columns: 1fr;
+  width: 60%;
+  margin: 0 auto;
+}
+h2 { color: #ffffff; font-family: 'Lato', sans-serif; font-size: 20px; font-weight: 300; line-height: 58px; margin: 0 0 20px; }
+h1 { color: #ffffff; font-family: 'Lato', sans-serif; font-size: 26px; font-weight: 300; line-height: 58px; margin: 0 0 20px; }
+p { margin-bottom: 20px; color: #adb7bd; font-family: 'Lucida Sans', Arial, sans-serif; font-size: 16px; line-height: 26px; text-indent: 30px; }
+a { color: #fe921f; text-decoration: underline; }
+/* items */
+.container > * {
+  padding: 20px;
+  background: #1C2329;
+  margin-top: 20px;
+}
+
+.container nav {
+  border:1px solid #ccc;
+  border-width:1px 0;
+  list-style:none;
+  margin:0;
+  padding:0;
+  text-align:center;
+  width: 100%;
+}
+.active {
+  background-color: #03051c;
+  padding: 5px;
+}
+nav li {
+  display: inline;
+}
+nav a {
+  display: inline-block;
+  padding: 5px;
+  text-decoration: none;
+    border-bottom: solid 1px black;
+}
+nav a:visited { text-decoration: none;}
+nav a:hover { text-decoration: none; color:blue; }
+nav a:focus { text-decoration: none; color:yellow; }
+nav a:hover, nav a:active {
+  text-decoration: none;
+  border-bottom: solid 1px white;
+  border-color: pink;
+  color: #ffffff;
+}
+article button {
+  float: right;
+  opacity: 0.5;
+  padding: 0;
+  border: none;
+  background: none;
+  background-color: #1C2329;
+  border-radius: 50%;
+}
+article button img {
+  width: 32px;
+  height: auto;
+}
+article button:hover {
+  animation: gotop 2s forwards;
+}
+@keyframes gotop {
+  0%{transform: translateY(0);}
+  25%{transform: translateY(-9px);}
+  50%{transform: translateY(0);}
+  75%{transform: translateY(-9px);}
+  100%{transform: translateY(0);   background-color: tomato;}
+}
+@media screen and (max-width:745px) {
+  .container {
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 100%;
+    margin: 0 auto;
+  }
+  nav li{
+  display: flex;
+  flex-direction: column;
+}
+}
