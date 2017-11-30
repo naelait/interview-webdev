@@ -1,5 +1,6 @@
 {
     "name": "Webdev Interview",
+    "short_name": "WebInt",
     "icons": [
         {
             "src": "/android-chrome-192x192.png",
