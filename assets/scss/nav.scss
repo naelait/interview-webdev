@@ -1,0 +1,54 @@
+.container {
+  nav {
+    border: {
+      width: 1px;
+      style: solid;
+      color: #ccc;
+    }
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    width: 100%;
+  }
+}
+.active {
+  background-color: #03051c;
+  padding: 5px;
+}
+nav {
+  li {
+    display: inline;
+  }
+  a {
+    display: inline-block;
+    padding: 5px;
+    text-decoration: none;
+    border-bottom: solid 1px black;
+    &:visited {
+      text-decoration: none;
+    }
+    &:hover {
+      text-decoration: none;
+      color: blue;
+      border: {
+        bottom: solid 1px white;
+        color: pink;
+      }
+      color: #ffffff;
+    }
+    &:focus {
+      text-decoration: none;
+      color: yellow;
+    }
+    &active {
+      text-decoration: none;
+      color: blue;
+      border: {
+        bottom: solid 1px white;
+        color: pink;
+      }
+      color: #ffffff;
+    }
+    }
+  }

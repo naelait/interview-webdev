@@ -1,0 +1,24 @@
+article {
+  button {
+    float: right;
+    opacity: 0.5;
+    padding: 0;
+    border: none;
+    border-radius: 50%;
+    background-color: #1C2329;
+    img {
+      width: 32px;
+      height: auto;
+    }
+    &:hover {
+      animation: gotop 2s forwards;
+    }
+  }
+}
+@keyframes gotop {
+  0%{transform: translateY(0);}
+  25%{transform: translateY(-9px);}
+  50%{transform: translateY(0);}
+  75%{transform: translateY(-9px);}
+  100%{transform: translateY(0);   background-color: tomato;}
+}

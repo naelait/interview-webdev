@@ -1,0 +1,23 @@
+h2 {
+  color: #ffffff;
+  font-family: 'lato', sans-serif;
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 58px;
+  margin: 0 0 20px;
+}
+h1 {
+  @extend h2;
+  font-size: 26px;
+}
+p { margin-bottom: 20px;
+  color: #adb7bd;
+  font-family: 'Lucida Sans', Arial, sans-serif;
+  font-size: 16px;
+  line-height: 26px;
+  text-indent: 30px;
+  }
+a {
+  color: #fe921f;
+  text-decoration: underline;
+}
