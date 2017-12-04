@@ -79,7 +79,9 @@ nav a {
     color: #ffffff; }
 
 article button {
-  float: right;
+  margin: 0 auto;
+  cursor: pointer;
+  display: block;
   opacity: 0.5;
   padding: 0;
   border: none;
