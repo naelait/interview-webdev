@@ -1,6 +1,6 @@
 # interview-webdev
 
-** By Naiel, Junior Web Developer @BeCode.org  
+- By Naiel A., Junior Web Developer @BeCode.org  
 
 ## Projet du Interview d'un Web Devlopper ##
 
